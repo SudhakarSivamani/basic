@@ -1,10 +1,8 @@
 services:
-  web:
+  python-script:
     build: .
-    ports:
-      - "8000:8000"
+    container_name: python-script-container
     volumes:
-      - .:/app
-    depends_on:
-      - postgres_db
-    tty: true
+      - .:/usr/src/app  # Mount the current directory to the container
+    working_dir: /usr/src/app
+    command: python check.py
