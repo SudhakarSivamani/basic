@@ -1,0 +1,1 @@
+Reference: [https://www.squash.io/fastapi-integration-bootstrap-templates-elasticsearch-and-databases/#:~:text=To%20integrate%20Bootstrap%20with%20FastAPI%2C%20you%20can%20start,you%20can%20include%20Bootstrap%20in%20your%20FastAPI%20application%3A]

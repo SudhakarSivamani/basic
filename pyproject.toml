@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi integration with bootstrap"
+version = "0.1.0"
+description = "Basic integration of bootstrap in FastAPI to under stand its behaviour"
+authors = ["SudhakarSivamani <sudhakarsivamani8@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["standard"], version = "^0.115.6"}
+fastapi-static-files = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
